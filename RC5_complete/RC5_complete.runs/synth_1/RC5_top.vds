@@ -1,0 +1,450 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Nov 11 00:06:17 2021
+# Process ID: 22212
+# Current directory: C:/Users/AERO/source/RC5_complete/RC5_complete.runs/synth_1
+# Command line: vivado.exe -log RC5_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RC5_top.tcl
+# Log file: C:/Users/AERO/source/RC5_complete/RC5_complete.runs/synth_1/RC5_top.vds
+# Journal file: C:/Users/AERO/source/RC5_complete/RC5_complete.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RC5_top.tcl -notrace
+Command: synth_design -top RC5_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24420 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 375.336 ; gain = 99.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RC5_top' [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:21]
+INFO: [Synth 8-3491] module 'RC5_keygen' declared at 'C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_keygen.vhd:7' bound to instance 'U1' of component 'rc5_keygen' [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'RC5_keygen' [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_keygen.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'RC5_keygen' (1#1) [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_keygen.vhd:17]
+WARNING: [Synth 8-3848] Net d_out in module/entity RC5_top does not have driver. [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:15]
+WARNING: [Synth 8-3848] Net done in module/entity RC5_top does not have driver. [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:17]
+WARNING: [Synth 8-3848] Net key_in in module/entity RC5_top does not have driver. [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'RC5_top' (2#1) [C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd:21]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[63]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[62]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[61]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[60]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[59]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[58]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[57]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[56]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[55]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[54]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[53]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[52]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[51]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[50]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[49]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[48]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[47]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[46]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[45]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[44]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[43]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[42]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[41]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[40]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[39]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[38]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[37]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[36]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[35]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[34]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[33]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[32]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[31]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[30]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[29]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[28]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[27]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[26]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[25]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[24]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[23]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[22]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[21]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[20]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[19]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[18]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[17]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[16]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[15]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[14]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[13]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[12]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[11]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[10]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[9]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[8]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[7]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[6]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[5]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[4]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[3]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[2]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[1]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_out[0]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port done
+WARNING: [Synth 8-3331] design RC5_top has unconnected port start_encryption
+WARNING: [Synth 8-3331] design RC5_top has unconnected port start_decryption
+WARNING: [Synth 8-3331] design RC5_top has unconnected port start_generating_skey
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[63]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[62]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[61]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[60]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[59]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[58]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[57]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[56]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[55]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[54]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[53]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[52]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[51]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[50]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[49]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[48]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[47]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[46]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[45]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[44]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[43]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[42]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[41]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[40]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[39]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[38]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[37]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[36]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[35]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[34]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[33]
+WARNING: [Synth 8-3331] design RC5_top has unconnected port d_in[32]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 432.371 ; gain = 156.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 432.371 ; gain = 156.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 432.371 ; gain = 156.863
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'RC5_keygen'
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "l_arr_reg[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "skey[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "a_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_idle |                             0001 |                               00
+             st_key_init |                             0010 |                               01
+              st_key_exp |                             0100 |                               10
+                st_ready |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'RC5_keygen'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 434.555 ; gain = 159.047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 58    
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 57    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RC5_keygen 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 58    
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 57    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_arr_tmp_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "l_arr_reg[3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "l_arr_reg[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     2|
+|3     |LUT3  |     2|
+|4     |LUT5  |     5|
+|5     |LUT6  |     2|
+|6     |FDCE  |    11|
+|7     |FDPE  |     1|
+|8     |IBUF  |     2|
+|9     |OBUF  |     1|
+|10    |OBUFT |    65|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-----------+------+
+|      |Instance |Module     |Cells |
++------+---------+-----------+------+
+|1     |top      |           |    92|
+|2     |  U1     |RC5_keygen |    23|
++------+---------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 267 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 572.199 ; gain = 296.691
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 669.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+80 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 669.574 ; gain = 405.953
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 669.574 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/AERO/source/RC5_complete/RC5_complete.runs/synth_1/RC5_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RC5_top_utilization_synth.rpt -pb RC5_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 11 00:06:30 2021...

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RC5_complete.srcs/sources_1/new/RC5_encode.v" \
+"../../../../RC5_complete.srcs/sources_1/new/RC5_decode.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/AERO/source/RC5_complete/RC5_complete.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sim_1/new/RC5_testbenches.v,1636688436,verilog,,,,RC5_testbenches,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_decode.vhd,1636677240,vhdl,,,,rc5_decode,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_encode.vhd,1636674683,vhdl,,,,rc5_vhdl,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_keygen.vhd,1636605857,vhdl,,,,rc5_keygen,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_pkg.vhd,1636594981,vhdl,C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_decode.vhd,,,rc5_pkg,,,,,,,,
+C:/Users/AERO/source/RC5_complete/RC5_complete.srcs/sources_1/new/RC5_top.vhd,1636676611,vhdl,,,,rc5_top,,,,,,,,

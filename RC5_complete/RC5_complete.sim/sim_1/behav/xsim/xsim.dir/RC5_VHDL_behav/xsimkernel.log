@@ -1,0 +1,7 @@
+Running: xsim.dir/RC5_VHDL_behav/xsimk.exe -simmode gui -wdb RC5_VHDL_behav.wdb -simrunnum 0 -socket 64014
+Design successfully loaded
+Design Loading Memory Usage: 6416 KB (Peak: 6416 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7020 KB (Peak: 7020 KB)
+Simulation CPU Usage: 31 ms
